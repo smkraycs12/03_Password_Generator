@@ -1,1 +1,2 @@
 # 03_Password_Generator
+The purpose of this project the was to create a password generator that would generate passwords using javascript. The password generator takes the criteria selected by the user and makes a password containing lowercase and uppercase letters, numbers and symbols.
