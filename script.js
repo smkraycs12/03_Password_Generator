@@ -10,5 +10,18 @@ function writePassword() {
 
 }
 
+// function for gen lowercase letters 
+function getRandomLower() {
+  return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
+}
+
+// funstion for gen uppercase letters
+function getRandomUpper() {
+  return String.fromCharCode(Math.floor(Math.random() * 26) + 65);
+}
+
+
+
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
